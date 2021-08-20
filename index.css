@@ -1,0 +1,143 @@
+#leftbox{
+ border-style: solid; 
+ border-color: black; 
+ float:left;
+ background: skyblue;
+ width: 30%;
+ height: 280px;
+ border-radius: 25px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+#middlebox{
+  float:left;
+  border-style: solid; 
+  border-color: black;
+  background: skyblue;
+  width: 30%;
+  height: 280px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+ #rightbox{
+  float:left;
+  border-style: solid; 
+  border-color: black;
+  background: skyblue;
+  width: 30%;
+  height: 280px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+ #downleft{
+  float:left;
+  border-style: solid; 
+  border-color: black;
+  background: skyblue;
+  width: 30%;
+  height: 280px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+ }
+ #downmiddle{
+  float:left;
+  border-style: solid; 
+  border-color: black;
+  background: skyblue;
+  width: 30%;
+  height: 280px;
+  border-radius: 25px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top: 50px;
+ }
+ #downright{
+  float:left;
+  border-style: solid; 
+  border-color: black;
+  background: skyblue;
+  width: 30%;
+  height: 280px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+ }
+ 
+.mainhead{
+  border: 5px solid red;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  border: red;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding:25px
+}
+#boxes{
+  background-color: red;
+}
+.circle{
+  width: 400px;
+  height: 400px;
+  background: #10bcf4;
+  margin-top: 150px;
+  
+  border-radius: 50%;
+  border: 3px solid black;
+  position: relative;
+}
+.content{
+  position: absolute;
+  width: inherit;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.form{
+ border-width: 5px; 
+ border-color: red; 
+ border-style: dashed;
+ margin-top: 100px;
+ margin-left: 550px;
+ margin-right: 550px;
+ padding-bottom: 20px;
+}
+.top{
+  border: 5px solid red;
+  margin-left: 80%;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  text-align:center;
+  padding: 5px 5px 5px 5px;
+}
+.topmiddle{
+  margin-top: -150px;
+  border: 5px solid red;
+  margin-left: 39%;
+  margin-right: 36%;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  text-align:center;
+  padding:30px 10px 10px 10px;
+}
+.topleft{
+  margin-top: -150px;
+  border: 5px solid red;
+  margin-left: 0%;
+  margin-right: 70%;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  text-align:center;
+  padding:30px 10px 10px 10px; 
+}
